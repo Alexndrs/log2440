@@ -15,6 +15,29 @@ form {
 
 input {
     box-sizing: border-box;
+    width: 100%;
+    margin: 5px 0px;
+    background-color: #ffffe0;
+}
+
+select {
+    width: 100%;
+}
+
+/* input#login-submit{
+    color: white;
+    background-color: green;
+    font-size: large;
+}
+
+input#login-submit:hover {
+    background-color: darkgreen;
+    font-size: larger;
+} */
+
+.rounded-border{
+    border : solid 2px black;
+    border-radius: 10px;
 }
 
 /* Sélecteurs multiples pour l'élément <input> */
@@ -23,5 +46,43 @@ input {
 .a_remplacer {
     background-color: blue;
 }
+
+
+/* 
+
+i) Selecteur par attribut
+
+input[type=submit] {
+    color : red;
+} 
+
+
+
+ii) Selecteur hiérachique (enfant directe)
+
+form>input{
+    color : red;
+} 
+
+
+
+iii) Selecteur de voisin
+
+div~input{
+    color : red;
+}
+
+
+
+iv) avec :not
+
+input:not(:last-child){
+    color : red;
+}
+
+*/
+
+
+
 
 /* Exercice supplémentaire */
